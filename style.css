@@ -1,0 +1,269 @@
+/*フォントのcss*/
+.kaisei-decol-regular {
+    font-family: "Kaisei Decol", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.karantina-light {
+    font-family: "Karantina", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.karantina-regular {
+    font-family: "Karantina", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.karantina-bold {
+    font-family: "Karantina", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+/*ここまでフォントのcss*/
+
+/*ヘッダー*/
+.header-box {
+    height: 80px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, .1);
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: "Kaisei Decol", serif;
+    width: 20%;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    font-weight: 600;
+    background: skyblue;
+}
+
+nav {
+    width: 30%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    width: 33%;
+}
+
+.headers {
+    display: block;
+    font-family: "Kaisei Decol", serif;
+    color: white;
+    width: 100%;
+    line-height: 80px;
+    text-align: center;
+}
+
+.line {
+    background-color: black;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    transition: all 0.3s;
+}
+
+.line:nth-of-type(1) {
+    top: 0;
+}
+
+.line:nth-of-type(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.line:nth-of-type(3) {
+    bottom: 0;
+}
+/*ヘッダー*/
+
+.white-text{
+    position: absolute;
+    font-family: "Kaisei Decol", serif;
+    color: white;
+
+    left:400px;
+    
+    font-size: 20px;
+}
+.white-text2{
+    position: absolute;
+    font-family: "Kaisei Decol", serif;
+    color: white;
+    
+    font-size: 20px;
+}
+
+.pctext{
+    position: absolute;
+    top:60px;
+    font-family: "Kaisei Decol", serif;
+    color: white;
+}
+
+.career{
+    position: absolute;
+    left: 250px;
+    top: 170px;
+}
+.create{
+    position: absolute;
+    left: 350px;
+    top: 640px;
+}
+.skills{
+    position: absolute;
+    left: 900px;
+    top: 420px;
+}
+.careertitle{
+    color: aliceblue;
+}
+.careertext{
+    position: absolute;
+    color: aliceblue;
+
+    font-family: "Kaisei Decol", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: x-large;
+    line-height: 1.4em;
+
+    display: inline-block;
+    
+    left: 450px;
+    top: 1200px;
+}
+.careertext span{
+    background: rgba(24, 24, 37, 0.6);
+    padding: 5px;
+}
+.careerMYtext1{
+    position: absolute;
+    color: aliceblue;
+
+    font-family: "Kaisei Decol", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    font-size: x-large;
+    
+    left: 250px;
+}
+.careerMytext2{
+    position: absolute;
+    color: aliceblue;
+    
+    font-family: "Kaisei Decol", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    font-size: x-large;
+
+    display: inline-block;
+    
+    left: 250px;
+    top: 1400px;
+}
+.careerMytext2 span{
+    background: rgba(24, 24, 37, 0.6);
+    padding: 5px;
+}
+.careertitle{
+    position: absolute;
+    left: 200px;
+    top: 1150px;
+}
+.Myimage{
+    position: absolute;
+    left: 1150px;
+    top: 1530px;
+}
+
+.skilltitle{
+    position: absolute;
+    left: 150px;
+    top: 2000px;
+}
+/*アイコンたち*/
+.UEIcon{
+    position: absolute;
+    left: 150px;
+    top: 2250px;
+}
+.unityIcon{
+    position: absolute;
+    left: 700px;
+    top: 2100px;
+}
+.visualstudioicon{
+    position: absolute;
+    left: 400px;
+    top: 2500px;
+}
+.cshrp{
+    position: absolute;
+    left: 800px;
+    top: 2350px;
+}
+/*アイコンたち*/
+
+.createtitle{
+    position: absolute;
+    left: 150px;
+    top: 3050px;
+}
+.mycreateGame1{
+    position: absolute;
+    left: 200px;
+    top: 3250px;
+}
+
+
+
+.onetest{
+position: absolute;
+    left: 200px;
+    top: 3500px;
+    width: 20%;
+    height: auto;
+}
+.twotest{
+position: absolute;
+    left: 700px;
+    top: 3200px;
+}
+.santest{
+    position: absolute;
+    left: 700px;
+    top: 3500px;
+}
+.center{
+    left:20%
+}
+
+HTML{
+scroll-behavior: smooth;
+}
